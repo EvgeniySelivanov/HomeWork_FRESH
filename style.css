@@ -1,0 +1,77 @@
+@font-face{   
+    font-family:Oswald;    
+    src:url('../fonts/Oswald-Regular.ttf') format('truetype');
+    }
+   body
+    {
+    margin: 0;
+    padding: 0;
+    }
+    table{
+    border-collapse: collapse;
+    font-family: Oswald;
+    margin: 5% auto;
+    width:80%;
+    }
+    table thead tr{
+    text-align: center;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    }
+   thead tr>td:nth-child(1){
+    width:30%;
+    border-top-left-radius: 10px;
+    background-color:#7987ac;
+   }
+   thead tr>td:nth-child(2){
+    background-color:#4f628d;
+   }
+   thead tr>td:nth-child(3){
+    background-color:#2f4173;
+   }
+   thead tr>td:nth-child(4){
+    background-color:#162954;
+   }
+   thead tr>td:nth-child(5){
+    border-top-right-radius: 10px;
+    background-color:#07153a;
+   }
+    tbody{
+    font-size: 8px;
+    text-align: center;
+    }
+    tbody tr:nth-child(odd) td:nth-child(odd){
+   background-color: rgb(227, 227, 227);
+    }
+    tbody tr:nth-child(odd) td:nth-child(even){
+        background-color: rgb(235, 235, 235);
+         }
+    tbody tr:nth-child(even) td:nth-child(even){
+        background-color: rgb(255, 255, 255);
+         }
+
+    tbody tr:nth-child(even){
+    background-color: rgb(246, 246, 246);
+    }
+    tbody tr td{
+    padding: 10px;
+    }
+    tbody tr:last-child td:first-child
+    {
+        border-bottom-left-radius: 10px;
+    }
+    tbody tr:last-child td:last-child
+    {
+        border-bottom-right-radius: 10px;
+    }
+    span{
+        font-weight: 800;
+        font-size: x-large;
+    }
+    thead tr td p{
+        font-weight: 600;
+    }
+
+
+
+
