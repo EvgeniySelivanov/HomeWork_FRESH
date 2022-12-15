@@ -12,10 +12,11 @@
     font-family: Oswald;
     margin: 5% auto;
     width:80%;
+    font-size: 18px;
     }
     table thead tr{
     text-align: center;
-    font-size: 10px;
+   
     color: rgb(255, 255, 255);
     }
    thead tr>td:nth-child(1){
@@ -36,8 +37,13 @@
     border-top-right-radius: 10px;
     background-color:#07153a;
    }
+   tbody tr:nth-child(1)>td:nth-child(1),tr:nth-child(2)>td:nth-child(1),tr:nth-child(3)>td:nth-child(1),tr:nth-child(4)>td:nth-child(1),tr:nth-child(5)>td:nth-child(1),tr:nth-child(6)>td:nth-child(1)
+  {
+    text-align: left;
+    padding-left:40px;
+  }
     tbody{
-    font-size: 8px;
+    font-size: 18px;
     text-align: center;
     }
     tbody tr:nth-child(odd) td:nth-child(odd){
@@ -70,6 +76,23 @@
     }
     thead tr td p{
         font-weight: 600;
+    }
+    tbody tr:nth-child(7){
+        height:8vh;
+    }
+    a{
+        text-decoration: none;
+        color: inherit;
+        border: 2px  solid rgb(16, 3, 3) ;
+        border-radius: 5px;
+        padding: 4px 10px;
+        margin: 50px 0;
+        
+    }
+    a:hover{
+        background-color: aquamarine;
+        color: #2f4173;
+
     }
 
 
