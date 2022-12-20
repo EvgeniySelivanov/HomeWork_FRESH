@@ -1,0 +1,109 @@
+:root{
+    --padding-size:10px;
+    --font-size-context:0.75rem;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;}
+.main{
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.wrapper{
+  min-width: 30%;
+  background-color:#63738a ;
+  padding: 70px;
+}
+.wrapper__subWrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f2f3f7;
+  border-radius: 3px;
+  
+}
+h1{color:#646262;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  
+}
+h1::after,
+h1::before{
+  display: block; 
+  content: '';
+  color:#d4d4d4 ;             
+  width:100px;                    
+  content: '';                     
+  position: absolute;              
+  border-bottom: 2.5px solid #d7d1d1;   
+  top:50%;                        
+}
+h1::before{
+  right: 30px;
+}
+h1::after{
+  left: 30px;
+}
+.wrapper__subWrapper p{
+  text-align: center;
+  font-size:var(--font-size-context);
+  color:#c0bfbf ;
+}
+.form1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form1__name{
+  display: flex;
+  justify-content: space-between;
+}
+.form1 input{
+  height: 30px;
+  border: 1px solid  #c0bfbf;
+  border-radius: 4px;
+}
+.form1>*{
+  margin:10px 20px;
+}
+label[for="accept"]{
+  display:flex;
+  align-items: center;
+  color: #c0bfbf;
+  font-size:var(--font-size-context);
+}
+label[for="accept"] a{
+  text-decoration: none;
+  color:#4dc74d;
+}
+input[type="submit"]{
+  height:35px;
+  border: none;
+  border-radius: 3px;
+  color: #f2f3f7;
+  background-color:#53ac53 ;
+  font-weight: 700;
+  transition: 0.5s;
+}
+input[type="submit"]:hover{
+  background-color:#4dc74d ;
+  transition: 1.5s;
+}
+.wrapper__subWrapper1{
+  margin-top:var(--padding-size);
+  display:flex;
+  justify-content: center;
+  color: #f2f3f7;
+  font-size:var(--font-size-context) ;
+}
+::placeholder{
+  padding-left:var(--padding-size);
+  
+}
